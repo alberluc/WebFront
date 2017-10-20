@@ -1,0 +1,34 @@
+.diagonal{
+  z-index: 1;
+  &-top{
+    &:before{
+      content: "";
+      display: block;
+      position: absolute;
+      width: 200%;
+      height: 100px;
+      background-color: inherit;
+      transform: translateY(-93px) skewY(-1.7deg);
+    }
+  }
+  &-bottom{
+    &:after{
+      content: "";
+      display: block;
+      position: absolute;
+      width: 200%;
+      height: 54px;
+      background-color: inherit;
+      transform: translateY(0) skewY(1.5deg);
+    }
+  }
+}
+
+.magicline{
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+}

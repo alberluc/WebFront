@@ -1,0 +1,7 @@
+@keyframes zoomInOut {
+  100%{
+    transform: scale(1.1);
+    transform-origin: center center;
+    opacity: 0.7;
+  }
+}

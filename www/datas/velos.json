@@ -1,0 +1,38 @@
+[
+  {
+    "image" : "images/velo_1.png",
+    "name" : "Nom du modèle un peu long",
+    "type" : "Manuel - Vert Gazon",
+    "popularity" : 250,
+    "price": 1400,
+    "stock" : 0
+  },{
+    "image" : "images/velo_2.png",
+    "name" : "Un autre modèle un autre nom",
+    "type" : "Semi-Automatique - Blanc",
+    "popularity" : 666,
+    "price": 990,
+    "stock" : 1
+  },{
+    "image" : "images/velo_3.png",
+    "name" : "Nom du modèle toujours long",
+    "type" : "Semi-Automatique - Noir",
+    "popularity" : 444,
+    "price": 1110,
+    "stock" : 4
+  }, {
+    "image" : "images/velo_4.png",
+    "name" : "Modèle Nombizarrelong",
+    "type" : "Manuel - Rouge",
+    "popularity" : 150,
+    "price": 550,
+    "stock" : 4
+  }, {
+    "image" : "images/velo_5.png",
+    "name" : "Dernier modèle de la liste",
+    "type" : "Automatique long",
+    "popularity" : 1500,
+    "price": 880,
+    "stock" : 5
+  }
+]

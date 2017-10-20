@@ -1,0 +1,23 @@
+[
+  {
+    "title" : "Vélo 2000",
+    "description" : "Acheter le nouveau vélo 2000 à prix cassé, et profitez des plus belles balades à vélo !",
+    "url": "/velos/news/velo2000",
+    "image": "images/bubble_1_news.jpg",
+    "animation": "1"
+  },
+  {
+    "title" : "Vélo Sport",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eleifend velit. Aliquam imperdiet mollis lorem a tempor. Duis condimentum sem eu risus faucibus, nec laoreet leo pellentesque. Etiam lorem ex, hendrerit nec erat at, gravida eleifend orci. ",
+    "url": "/velos/news/velo3000",
+    "image": "images/bubble_2_news.jpg",
+    "animation": "2"
+  },
+  {
+    "title" : "Vélo Compétition",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eleifend velit. Aliquam imperdiet mollis lorem a tempor. Duis condimentum sem eu risus faucibus, nec laoreet leo pellentesque. Etiam lorem ex, hendrerit nec erat at, gravida eleifend orci. ",
+    "url": "/velos/news/velo3000",
+    "image": "images/bubble_3_news.jpg",
+    "animation": "3"
+  }
+]

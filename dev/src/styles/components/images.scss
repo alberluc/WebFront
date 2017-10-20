@@ -1,0 +1,13 @@
+.img{
+  background-repeat: no-repeat;
+  background-position: center;
+  &-run{
+    background-image: url("./../images/TRUCK.png");
+  }
+  &-attention{
+    background-image: url("./../images/INFO.png");
+  }
+  &-recept{
+    background-image: url("./../images/Tick.png");
+  }
+}

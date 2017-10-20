@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Mobile meta -->
+	<meta name="viewport" content="minimal-ui, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="mobile-web-app-capable" content="yes"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<!-- Behaivior meta -->
+	<meta content="telephone=no" name="format-detection"/>
+	<title>VeloShop</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body class="site_page">
+<div class="header-simple">
+	<div class="header_hamburger">
+		<div class="header_hamburger_bar"></div>
+		<div class="header_hamburger_bar"></div>
+		<div class="header_hamburger_bar"></div>
+	</div>
+</div>
+<header class="header">
+	<div class="grid_section">
+		<nav class="header_menu">
+			<a href="" class="header_link header_menu_item active">Accueil</a>
+			<a href="" class="header_link header_menu_item">En cours</a>
+			<a href="" class="header_link header_menu_item">Historique</a>
+		</nav>
+		<div class="header_user">
+			<a href="" class="header_link header_user_item">Sophia Lopez</a>
+			<a href="" class="header_link header_user_item">Déconnexion</a>
+		</div>
+	</div>
+</header>
+<main>
+	<section class="firstsection">
+		<div class="grid_section clearfix">
+			<article class="firstproduct">
+				<header class="firstproduct-top">
+					<h2 class="firstproduct_title">Nom du modèle</h2>
+					<span class="firstproduct_info">Taille S - Automatique</span>
+					<span class="firstproduct_info">Vers Anglais</span>
+				</header>
+				<footer class="firstproduct-bottom">
+					<a class="button button-link button-link-large button_link-anime button_link-anime-blue">commander</a>
+				</footer>
+			</article>
+		</div>
+	</section>
+	<section class="bestseller">
+		<div class="grid_section clearfix">
+			<header class="header_section clearfix bestseller-top">
+				<span class="header_section-left h1">Best-seller</span>
+				<form class="header_section-right bestseller_filters">
+					<label for="bestseller_filter">trier par :</label>
+					<span class="button-select">
+                            <select class="button_form button_form-grey" id="bestseller_filter">
+                                <option value="stock" selected>stock</option>
+                                <option value="name">nom</option>
+                                <option value="price">prix</option>
+                            </select>
+                        </span>
+				</form>
+			</header>
+			<ul class="listvelos clearfix"></ul>
+		</div>
+	</section>
+	<section class="news diagonal-top">
+		<div class="grid_section clearfix">
+			<span class="h3 news-title">Nouveautés</span>
+			<div data-name="slider_news" class="news_slider">
+				<div data-target="slider_news" data-direction="-1" class="slider_arrow slider_arrow-left"></div>
+				<ul data-name="slider_news_list" class="listnews_products"></ul>
+				<div data-target="slider_news" data-direction="1" class="slider_arrow slider_arrow-right"></div>
+			</div>
+			<div data-name="slider_buttons" class="slider_buttons"></div>
+		</div>
+	</section>
+	<section class="infos">
+		<div class="infos_column_wrapper grid_section clearfix">
+			<div class="infos_column infos_column-left">
+				<span class="h2">Historique de vos commandes</span>
+				<ul class="infos_list infos_listorders">
+					<li class="infos_list_item">
+						<article class="listorders_item clearfix listorders_item_attention">
+							<a class="listorders_item_link" href="">
+								<div class="listorders_item_content">
+									<div class="infos_item_images">
+										<img class="item_image_bubble order_image_user" src="images/person_1.jpg" alt="Photo contact">
+										<div class="item_image_bubble order_image_state img img-attention"></div>
+									</div>
+									<div class="infos_item_text">
+										<h2>Commande N°365412</h2>
+										<span class="infos_text_info">Par <strong>Vous</strong> le <time><strong>02 février 2015</strong></time></span>
+										<span class="infos_text-bottom order_text_state">attention requise</span>
+									</div>
+								</div>
+								<div class="listorders_item-right">
+									<button class="order_button button button-link button-link-medium" href="#">consulter</button>
+								</div>
+							</a>
+						</article>
+					</li>
+					<li class="infos_list_item">
+						<article class="listorders_item clearfix listorders_item_run">
+							<a class="listorders_item_link" href="">
+								<div class="listorders_item_content">
+									<div class="infos_item_images">
+										<img class="item_image_bubble order_image_user" src="images/person_2.jpg" alt="Photo contact">
+										<div class="item_image_bubble order_image_state img img-run"></div>
+									</div>
+									<div class="infos_item_text">
+										<h2>Commande N°365348</h2>
+										<span class="infos_text_info">Par <strong>Pierre Amiro</strong> le  <time><strong>22 janvier 2015</strong></time></span>
+										<span class="infos_text-bottom order_text_state">en cours d'expédition</span>
+									</div>
+								</div>
+								<div class="listorders_item-right">
+									<button class="order_button button button-link button-link-medium" href="#">consulter</button>
+								</div>
+							</a>
+						</article>
+					</li>
+					<li class="infos_list_item">
+						<article class="listorders_item clearfix listorders_item_recept">
+							<a class="listorders_item_link" href="">
+								<div class="listorders_item_content">
+									<div class="infos_item_images">
+										<img class="item_image_bubble order_image_user" src="images/person_1.jpg" alt="Photo contact">
+										<div class="item_image_bubble order_image_state img img-recept"></div>
+									</div>
+									<div class="infos_item_text">
+										<h2>Commande N°359836</h2>
+										<span class="infos_text_info">Par <strong>Vous</strong> le <time><strong>06 janvier 2015</strong></time></span>
+										<span class="infos_text-bottom order_text_state">réceptionné</span>
+									</div>
+								</div>
+								<div class="listorders_item-right">
+									<button class="order_button button button-link button-link-medium" href="#">consulter</button>
+								</div>
+							</a>
+						</article>
+					</li>
+					<li class="infos_list_item">
+						<article class="listorders_item clearfix listorders_item_recept">
+							<a class="listorders_item_link" href="">
+								<div class="listorders_item_content">
+									<div class="infos_item_images">
+										<img class="item_image_bubble order_image_user" src="images/person_2.jpg" alt="Photo contact">
+										<div class="item_image_bubble order_image_state img img-recept"></div>
+									</div>
+									<div class="infos_item_text">
+										<h2>Commande N°359134</h2>
+										<span class="infos_text_info">Par <strong>Pierre Amiro</strong> le <time><strong>22 décembre 2015</strong></time></span>
+										<span class="infos_text-bottom order_text_state">réceptionné</span>
+									</div>
+								</div>
+								<div class="listorders_item-right">
+									<button class="order_button button button-link button-link-medium" href="#">consulter</button>
+								</div>
+							</a>
+						</article>
+					</li>
+				</ul>
+				<footer class="infos_orders_footer">
+					<button class="button_history button button-link button-link-small">Voir l'historique</button>
+				</footer>
+			</div>
+			<div class="infos_column infos_column-right">
+				<span class="h2">Formation liées</span>
+				<ul class="infos_list listforms">
+					<li class="infos_list_item">
+						<article class="listforms_item">
+							<div class="form_images infos_item_images">
+								<img class="item_image_bubble form_image" alt="Photo formation" src="images/form.jpg">
+							</div>
+							<div class="infos_item_text">
+								<span class="infos_text_info">force de vente</span>
+								<h2 class="forms_title">Optimiser vos campagnes publicitaires</h2>
+								<span class="infos_text-bottom">recommandée</span>
+							</div>
+						</article>
+					</li>
+					<li class="infos_list_item">
+						<article class="listforms_item">
+							<div class="form_images infos_item_images">
+								<img class="item_image_bubble form_image" alt="Photo formation" src="images/form.jpg">
+							</div>
+							<div class="infos_item_text">
+								<span class="infos_text_info">force de vente</span>
+								<h2 class="forms_title">Gestion des stocks</h2>
+								<span class="infos_text-bottom">recommandée</span>
+							</div>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="graph diagonal-bottom">
+		<div class="grid_section clearfix">
+			<div class="graph_section_wrapper">
+				<header class="graph_header header_section clearfix">
+					<span class="header_section-left h3">Ventes / Commandes</span>
+					<form class="graph_filters header_section-right">
+						<div class="filter">
+							<label for="graph_filters_model">modèle :</label>
+							<span class="button-select">
+                                    <select class="button_form button_form-orange" id="graph_filters_model">
+                                        <option selected>Nom du modèle</option>
+                                    </select>
+                                </span>
+						</div>
+						<div class="filter">
+							<label for="graph_filter_color">couleur :</label>
+							<span class="button-select">
+                                    <select class="button_form button_form-orange" id="graph_filter_color">
+                                        <option selected>Noir</option>
+                                    </select>
+                                </span>
+						</div>
+					</form>
+				</header>
+				<canvas class="graph_image" id="graph_sellers"></canvas>
+				<canvas width="500" height="40" class="graph_legend" id="graph_sellers_legend"></canvas>
+				<!--<img class="graph_image" src="images/graph.png" alt="Graphique des commandes">-->
+			</div>
+		</div>
+	</section>
+	<section class="allproducts">
+		<div class="grid_section clearfix">
+			<header class="header_section clearfix">
+				<span class="h1 header_section-left">Tous les modèles</span>
+				<form class="all_filters header_section-right">
+					<div class="filter">
+                            <span class="button_search">
+                                <input id="button_search" class="button_form button_search button_form-grey" type="text" placeholder="Rechercher un modèle"/>
+                            </span>
+					</div>
+					<div class="filter">
+						<label for="all_models_filter">trier par :</label>
+						<span class="button-select">
+                                <select class="button_form button_form-grey" id="all_models_filter">
+                                    <option value="popularity" selected>popularité</option>
+									<option value="name">nom</option>
+									<option value="price">prix</option>
+                                </select>
+                            </span>
+					</div>
+				</form>
+			</header>
+			<ul class="listvelos clearfix"></ul>
+			<footer class="allproducts_footer">
+				<button class="button button-display allproducts_seeall">voir tous les modèles</button>
+			</footer>
+		</div>
+	</section>
+</main>
+<footer class="footer">
+	<div class="grid_section clearfix">
+		<div class="footer_column">
+			<span class="footer_column_title h3">Navigation</span>
+			<nav class="footer_column_content">
+				<ul>
+					<li>
+						<a href="">actualités</a>
+					</li>
+					<li>
+						<a href="">annuaire</a>
+					</li>
+					<li>
+						<a href="">app store</a>
+					</li>
+					<li>
+						<a href="">commandes</a>
+					</li>
+					<li>
+						<a href="">formations</a>
+					</li>
+					<li>
+						<a href="">publicités</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="footer_column">
+			<span class="footer_column_title h3">Mon compte</span>
+			<nav class="footer_column_content">
+				<ul>
+					<li>
+						<a href="">contact favoris</a>
+					</li>
+					<li>
+						<a href="">commandes</a>
+					</li>
+					<li>
+						<a href="">formations</a>
+					</li>
+					<li>
+						<a href="">préférences</a>
+					</li>
+					<li>
+						<a href="">profils</a>
+					</li>
+					<li>
+						<a href="">publicités</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="footer_column">
+			<span class="footer_column_title h3">Applications</span>
+			<nav class="footer_column_content">
+				<ul>
+					<li>
+						<a href="">catalogue</a>
+					</li>
+					<li>
+						<a href="">app sav</a>
+					</li>
+					<li>
+						<a href="">app garentie</a>
+					</li>
+					<li>
+						<a href="">user management</a>
+					</li>
+					<li>
+						<a href="">CRM</a>
+					</li>
+					<li>
+						<a href="">ERP</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="footer_column">
+			<span class="footer_column_title h3">Liens</span>
+			<nav class="footer_column_content">
+				<ul>
+					<li>
+						<a href="">à propos</a>
+					</li>
+					<li>
+						<a href="">conditions d'utilisation</a>
+					</li>
+					<li>
+						<a href="">mentions légales</a>
+					</li>
+					<li>
+						<a href="">intranet</a>
+					</li>
+					<li>
+						<a href="">site.com</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</footer>
+<!-- App -->
+<script src="../scripts/main.js"></script>
+<!-- Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+</body>
+</html>

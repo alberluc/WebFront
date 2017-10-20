@@ -1,0 +1,30 @@
+.allproducts{
+  padding: 32.2px 0 99px 0;
+}
+
+.listvelos{
+  /*display: flow-root;*/
+}
+
+.allproducts_footer{
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin-top: 48px;
+  background-color: #d6d6d6;
+}
+
+.allproducts_seeall{
+  position: absolute;
+  left: 50%;
+  color: #555555;
+  border-color: #d6d6d6;
+  background-color: #fff;
+  transform: translateX(-50%) translateY(-50%);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.all_filters{
+  color: #555555;
+}

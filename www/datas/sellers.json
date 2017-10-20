@@ -1,0 +1,56 @@
+{
+  "elements" : {
+    "commandes" : {
+      "color" : "blue",
+      "style" : "triangle"
+    },
+    "ventes" : {
+      "color" : "green",
+      "style" : "circle"
+    },
+    "stock" : {
+      "color" : "white",
+      "style" : "square"
+    }
+  },
+  "sellers" : {
+    "octobre" : [
+      {
+        "type" : "ventes",
+        "value" : 100
+      }
+    ],
+    "novembre" : [
+      {
+        "type" : "ventes",
+        "value" : 300
+      },
+      {
+        "type" : "commandes",
+        "value" : 400
+      }
+    ],
+    "décembre" : [
+      {
+        "type" : "ventes",
+        "value" : 500
+      }
+    ],
+    "janvier" : [
+      {
+        "type" : "ventes",
+        "value" : 300
+      },
+      {
+        "type" : "commandes",
+        "value" : 500
+      }
+    ],
+    "février" : [
+      {
+        "type" : "ventes",
+        "value" : 400
+      }
+    ]
+  }
+}

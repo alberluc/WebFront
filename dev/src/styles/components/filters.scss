@@ -1,0 +1,7 @@
+.filter{
+  display: inline-block;
+}
+
+.filter:not(:last-child){
+  margin-right: 25px;
+}

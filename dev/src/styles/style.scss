@@ -1,0 +1,26 @@
+@import "utils/variables";
+@import "base";
+@import "utils/texts";
+
+/* Composants */
+@import "components/links";
+@import "components/buttons";
+@import "components/headers";
+@import "components/layout";
+@import "components/filters";
+@import "components/borders";
+@import "components/images";
+@import "components/animation";
+
+/* Sections */
+@import "layout/header";
+@import "layout/main";
+@import "layout/firstsection";
+@import "layout/bestseller";
+@import "layout/news";
+@import "layout/infos";
+@import "layout/graph";
+@import "layout/allproducts";
+@import "layout/footer";
+
+@import "responsive";

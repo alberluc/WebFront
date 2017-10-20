@@ -1,0 +1,60 @@
+.listvelos_item{
+  float: left;
+  &:not(:first-child){
+    padding-left: 5.7px;
+  }
+  &_image{
+    display: block;
+    position: relative;
+    left: -49px;
+    height: 105px;
+    background-color: #e6e6e6;
+  }
+  &:last-child .velo_item{
+    width: 179px;
+  }
+}
+
+.velo_item{
+  cursor: pointer;
+  position: relative;
+  width: 180.3px;
+  height: 221px;
+  overflow: hidden;
+  color: #888888;
+  background-color: #efefef;
+  border-bottom: solid 4px #d6d6d6;
+  transition: transform 300ms, box-shadow 300ms;
+  &:hover{
+    z-index: 2;
+    transform: scale(1.05);
+    box-shadow: 0 0 7px 0px rgba(60, 60, 60, 0.28);
+  }
+  &_info{
+    font-size: 11px;
+  }
+  &-top{
+    padding: 15px;
+  }
+  &-bottom{
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    color: #d6d6d6;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  &-limit{
+    border-bottom: solid 4px #ff3f0c;
+    .velo_item-bottom{
+      color: #ff3f0c;
+    }
+  }
+}
+
+.item_image_bubble{
+  display: inline-block;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+}

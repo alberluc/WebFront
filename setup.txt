@@ -1,0 +1,2 @@
+1) Creer un serveur pour permettre l'exécution des requetes Ajax
+2) Mettre le contenu du dossier "www" sur le serveur

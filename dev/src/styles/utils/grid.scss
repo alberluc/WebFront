@@ -1,0 +1,18 @@
+/****************************************
+ *	Grid
+ ****************************************/
+
+/********************
+ *	Containers
+ ********************/
+.grid_section{
+  display: flow-root;
+  box-sizing: content-box;
+  padding: 0 25px;
+  margin: auto;
+  max-width: $larg_max;
+}
+
+/********************
+ *	Elements
+ ********************/

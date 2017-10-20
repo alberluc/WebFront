@@ -1,0 +1,23 @@
+.header_section{
+  /*display: flow-root;*/
+  position: relative;
+  padding: 42px 0;
+  &-left{
+    position: absolute;
+    top: 50%;
+    float: left;
+    transform: translate3d(0, -50%, 0);
+  }
+  &-right{
+    float: right;
+  }
+}
+
+.header_section_title{
+  float: left;
+  transform: translateY(50%);
+}
+
+.header_section_filters{
+  float: right;
+}

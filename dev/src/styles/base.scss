@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  background: inherit;
+}
+
+.grid_section{
+  /*display: flow-root;*/
+  box-sizing: content-box;
+  padding: 0 25px;
+  margin: auto;
+  max-width: $larg_max;
+}
+
+input, select{
+  border: solid 1px;
+  color: inherit;
+  font-size: 14px;
+}
+
+label{
+  font-size: 14px;
+}
+
+ul, li{
+  list-style: none;
+}
+
+.clearfix{
+  &:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none; /* remove default arrow in IE 10 and 11 */
+}

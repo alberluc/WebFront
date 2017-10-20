@@ -1,0 +1,10 @@
+.header_link{
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  text-decoration: none;
+  font-size: 15px;
+  &:not(:first-child) {
+    margin-left: 24px;
+  }
+}
